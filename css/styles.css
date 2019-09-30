@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  /* 1rem = 10px */
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(/background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #EBF2FA;
+}
+
+body .title-main {
+  margin: 2.5rem;
+  font-size: 10rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #FFFF00;
+}
+
+body .info-container {
+  font-size: 5rem;
+  font-family: "Poppins", sans-serif;
+  margin: 2rem;
+  padding: 4rem;
+  border: 2px solid #FFFF00;
+  border-radius: 5%;
+  width: 60rem;
+  height: 40rem;
+}
+
+body .info-container #name {
+  text-decoration: underline;
+  padding: 1.5rem 0;
+}
+
+body button {
+  border: 2px solid #EBF2FA;
+  background-color: #EBF2FA;
+  border-radius: 5%;
+  font-size: 2rem;
+  text-align: center;
+  width: 20rem;
+  height: 6rem;
+  margin: 5rem;
+}
+/*# sourceMappingURL=styles.css.map */
