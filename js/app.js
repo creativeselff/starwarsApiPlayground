@@ -12,7 +12,7 @@ let displayInfo = () => {
     updateWhenLoadingPage();
     let randomInfo = Math.floor((Math.random() * 88) + 1);
 
-    axios.get(`https://swapi.co/api/people/${randomInfo}`).then( response => {
+    axios.get(`https://swapi.dev/api/people/${randomInfo}`).then( response => {
     updateInfo(response.data);
     }).catch( e => {
         updateInfoWhenApiError();
